@@ -1,8 +1,10 @@
 FancyCheckbox
 =============
+FancyCheckbox is a simple and lightweight (less then 1k min and gziped) jQuery plugin to create iPhone styled checkboxes based on [this tutorial](http://www.webstuffshare.com/2010/03/stylize-your-own-checkboxes/) and created By the need of a GPL licensed 
+
 ![FancyCheckbox](http://i.imgur.com/2Xy6d.png)
 
-FancyCheckbox is a simple and lightweight (less then 1k min and gziped) jQuery plugin to create Iphone styled checkboxes based on [this tutorial](http://www.webstuffshare.com/2010/03/stylize-your-own-checkboxes/)
+
 
 ##Usage:
 Include nessesary JS and CSS files
@@ -40,14 +42,45 @@ Then simple call the plugin on any element you want (assuming that is a checkbox
   </tr>
 </table>
 
+###Events:
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <th>beforeLoad</th>
+    <td>Triggered just before the fancy checkbox is loaded to the DOM</td>
+  </tr>
+  <tr>
+    <th>afterLoad</th>
+    <td>Triggered just after the fancy checkbox is loaded to the DOM</td>
+  </tr>
+  <tr>
+    <th>beforeChangeIphone</th>
+    <td>Triggered just before the fancy checkbox (iPhone styled) is changed</td>
+  </tr>
+  <tr>
+    <th>afterChangeIphone</th>
+    <td>Triggered just after the fancy checkbox (iPhone styled) is changed</td>
+  </tr>
+  <tr>
+    <th>beforeChangeFirerift</th>
+    <td>Triggered just before the fancy checkbox (Firerift styled) is changed</td>
+  </tr>
+  <tr>
+    <th>afterChangeFirerift</th>
+    <td>Triggered just after the fancy checkbox (Firerift styled) is changed</td>
+  </tr>
+  
+</table>
+
 ##Author
 Ohad Raz http://en.bainternet.info
 ##License:
 
-Copyright 2012, Ohad Raz
+Copyright © 2012 Ohad Raz, <admin@bainternet.info>  ,Dual licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) and [GPL](http://www.gnu.org/licenses/gpl.html) licenses.
 
-Dual licensed under the MIT and GPL licenses:
 
-http://www.opensource.org/licenses/mit-license.php
 
-http://www.gnu.org/licenses/gpl.html
+
