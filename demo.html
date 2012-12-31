@@ -19,15 +19,23 @@
 	<input type="checkbox" id="sample-checkbox-2"/>
 	<p class="separator"></p></div>
 	<div><label>Enable Right Click</label>
-	<input type="checkbox" id="sample-checkbox-3" checked="checked" />
+	<input type="checkbox" id="sample-checkbox-3" checked="checked" class="fancycheckbox" />
 	<p class="separator"></p></div>
 	<div><label>Checkbox with <code>.no-fancy</code> class</label>
 	<input type="checkbox" id="sample-checkbox-4" class="no-fancy" checked="checked" />
 	<p class="separator"></p></div>
 	
-	<script>
-		$(document).ready(function() {
-			$(":checkbox").FancyCheckbox({style: 'iphone'});
-		});
-	</script>
+		<script>
+			$(document).ready(function() {
+				//default on
+				$("#sample-checkbox-1").FancyCheckbox();
+				//default off
+				$("#sample-checkbox-2").FancyCheckbox();
+				//firerift
+				$("#sample-checkbox-3").FancyCheckbox({style: 'firerift'});
+				//this will do nothing
+				$("#sample-checkbox-3").FancyCheckbox({style: 'firerift'});
+				
+			});
+		</script>
 </div>
