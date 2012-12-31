@@ -2,7 +2,7 @@ FancyCheckbox
 =============
 ![FancyCheckbox](http://i.imgur.com/2Xy6d.png)
 
-FancyCheckbox is a simple and lightweight jQuery plugin to create Iphone styled checkboxes based on [this tutorial](http://www.webstuffshare.com/2010/03/stylize-your-own-checkboxes/)
+FancyCheckbox is a simple and lightweight (less then 1k min and gziped) jQuery plugin to create Iphone styled checkboxes based on [this tutorial](http://www.webstuffshare.com/2010/03/stylize-your-own-checkboxes/)
 
 ##Usage:
 Include nessesary JS and CSS files
